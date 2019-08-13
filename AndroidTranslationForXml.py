@@ -65,7 +65,7 @@ for j in range(1,int_len):
         str+="\">"
         str+=result[i-1]
         str+="</string>\n"
-        str+="</resources>"
+    str+="</resources>"
     f.write(str)
     f.close()
     print("文件生成成功！")
